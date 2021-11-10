@@ -2,19 +2,23 @@
 
 public class Song {
 
+    public void setFilePath(String string) {
+    }
+
     public void setArtist(String string) {
     }
 
     public void setTitle(String string) {
     }
 
-    public void setGenre(String string) {
-    }
-
     public void setYear(String string) {
     }
 
-    public void setFilePath(String string) {
+    public void setGenre(String string) {
+    }
+
+    public String getFilePath() {
+        return null;
     }
 
     public String getTitle() {
@@ -30,10 +34,6 @@ public class Song {
     }
 
     public String getYear() {
-        return null;
-    }
-
-    public String getFilePath() {
         return null;
     }
 

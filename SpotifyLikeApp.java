@@ -25,21 +25,21 @@ public static void main(String[] args) {
             s.setArtist("Ava_Luna"); 
             s.setTitle("cement"); 
             s.setYear("2015"); 
-            s.setGenre("pop"); 
+            s.setGenre("Pop"); 
             s.setFilePath("./Song/Ava_Luna_-_02_-_Cement_Lunch.wav"); 
  
             s = new Song(); 
             s.setArtist("Bisou"); 
             s.setTitle("Journey"); 
             s.setYear("2016"); 
-            s.setGenre("pop"); 
+            s.setGenre("Pop"); 
             s.setFilePath("./Song/Bisou_-_04_-_Journey_of_King.wav"); 
  
             s = new Song(); 
             s.setArtist("Checkie_Brown"); 
             s.setTitle("Tanzen"); 
             s.setYear("2015"); 
-            s.setGenre("pop"); 
+            s.setGenre("Pop"); 
             s.setFilePath("./Song/Checkie_Brown_-_10_-_Tanzen_CB_003.wav"); 
  
             s = new Song(); 
