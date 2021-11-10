@@ -13,7 +13,7 @@ public class SpotifyLikeApp {
     String status; 
     Long position; 
     static Clip audioClip; 
-static HashMap<String, Song> song = new HashMap<>(); 
+static HashMap<String, String> song = new HashMap<>(); 
 private static HashMap<String, Song> songs; 
 private static boolean Playing; 
  
@@ -94,13 +94,13 @@ private static void handleMenu(String userInput) {
              System.out.println("-->Home<--"); 
              break; 
         case "s": 
-            System.out.println("-->Search by title<--"); 
+            System.out.println("-->Search by Title<--"); 
             Scanner input = new Scanner(System.in); 
-            System.out.println("Please enter the title:"); 
+            System.out.println("Please enter the Title:"); 
             String title = input.nextLine(); 
-            Song song = songs.get(title); 
-         
- 
+            Song playlist = songs.get(title); 
+            System.out.println(playlist);
+ /*
             if (song !=null) 
             { 
                 System.out.println("Your current selection is now playing"); 
@@ -113,6 +113,7 @@ private static void handleMenu(String userInput) {
                 break; 
  
             } 
+            */
         case "l": 
             System.out.println("-->Library<--"); 
             for(Map.Entry<String, Song> s : songs.entrySet()){ 
